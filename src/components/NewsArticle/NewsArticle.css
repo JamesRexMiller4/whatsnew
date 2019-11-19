@@ -1,0 +1,24 @@
+.news-card-div {
+    width: 100%;
+    height: 100%;
+    color: white;
+    border: 5px solid;
+    border-color: aquamarine;
+}
+
+.article-image {
+    width: 100%;
+    height: 150px;
+    border-bottom: 3px solid;
+    border-color: aquamarine;
+}
+
+.article-paragraph {
+    width: 100%;
+}
+
+.article-anchor {
+    width: 100%;
+    background-color: red;
+    color: white;
+}
