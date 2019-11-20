@@ -1,11 +1,15 @@
 import React from 'react';
-import './Menu.css'
+import './Menu.css';
 
-const Menu = () => {
+const Menu = ({chooseNews}) => {
     return(
-        <aside>
-            <
-        </aside>
+        <nav>
+            <button type='button' onClick={chooseNews} className='btn'>Local News</button>
+            <button type='button' onClick={chooseNews} className='btn'>Technology</button>
+            <button type='button' onClick={chooseNews} className='btn'>Entertainment</button>
+            <button type='button' onClick={chooseNews} className='btn'>Science</button>
+            <button type='button' onClick={chooseNews} className='btn'>Health</button>
+        </nav>
     )
 }
 
