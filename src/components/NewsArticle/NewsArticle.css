@@ -1,6 +1,6 @@
 .news-card-div {
     width: 100%;
-    /* height: 100%; */
+    height: fit-content;
     color: white;
     border: 10px solid;
     border-radius: 5px;
@@ -16,7 +16,7 @@
 
 .article-paragraph {
     width: 100%;
-    height: 100px;
+    height: fit-content;
     padding: 20px;
     margin-bottom: 20px;
 }
