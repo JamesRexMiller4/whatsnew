@@ -2,8 +2,8 @@ import React from 'react';
 import './NewsContainer.css';
 import NewsArticle from '../NewsArticle/NewsArticle.js';
 
-const NewsContainer = ({local}) => {
-    const articles = local.map(article => {
+const NewsContainer = ({displayNews}) => {
+    const articles = displayNews.map(article => {
         return (
             <NewsArticle
                 key = {article.id}
