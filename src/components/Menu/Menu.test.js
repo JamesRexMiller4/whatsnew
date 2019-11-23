@@ -16,7 +16,6 @@ describe('Menu', () => {
         expect(wrapper).toMatchSnapshot()
     })
     it('should trigger the chooseNews method when a button is clicked', () => {
-        console.log(wrapper.find('button'))
         wrapper.find('#local').simulate('click');
         expect(chooseNewsMock).toHaveBeenCalledWith('local');
     })
