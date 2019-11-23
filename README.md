@@ -1,6 +1,7 @@
 # Whats New - Solo Project MOD 3
 
-## Overview: This project introduced us to the React library teaching us how to create components using JSX and using the built in React
+## Overview: 
+This project introduced us to the React library teaching us how to create components using JSX and using the built in React
 render method to append the components to the DOM. The Whats New web app is a React app that displays news articles of various categories. 
 A user is able to select on a tab that will filter the news articles according to the category selected. A user is also able to search for a
 particular news article by typing into a search bar and submitting a search query. 
