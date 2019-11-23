@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewsArticle should match the snapshot with all the data passed through 1`] = `
+<div
+  className="news-card-div"
+>
+  <img
+    alt="a cat sits on a tree"
+    className="article-image"
+    src="https://i0.wp.com/wp-cpr.s3.amazonaws.com/uploads/2019/09/cpr-swolf_black-cube-monumental_DSC8170.jpg?resize=2064,1376"
+  />
+  <h2>
+    Giant Chicken Skeleton In Denver’s Central Library Stands For More Than Just Dinner
+  </h2>
+  <p
+    className="article-paragraph"
+  >
+    The 24-foot-tall chicken skeleton towers over the people who pass through the main hall of the Denver Central Library. Skeletal wings extend to the side, and it looks downright prehistoric.
+  </p>
+  <a
+    className="article-anchor"
+    href="https://www.cpr.org/2019/09/27/giant-chicken-skeleton-in-denvers-central-library-stands-for-more-than-just-dinner/"
+  >
+    Link to Article
+  </a>
+</div>
+`;
