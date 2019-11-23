@@ -13,8 +13,7 @@ particular news article by typing into a search bar and submitting a search quer
 
 Technologies Used: 
 
-React 
-Jest/Enzyme
+React, Jest/Enzyme
 
 
 ## Issues / Future Iterations: 
