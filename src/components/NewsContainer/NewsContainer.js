@@ -3,12 +3,13 @@ import './NewsContainer.css';
 import NewsArticle from '../NewsArticle/NewsArticle.js';
 
 const NewsContainer = ({displayNews}) => {
-    const articles = displayNews.map(article => {
+    const articles = displayNews.map((article, index) => {
         return (
             <NewsArticle
-                key = {article.id}
+                id = {article.id}
+                key = {index}
                 image = {article.img}
-                title = {article.title}
+                headline = {article.headline}
                 description = {article.description}
                 url = {article.url}
             />
