@@ -4,6 +4,11 @@
   padding: 0;
 }
 
+html {
+  height: 1000px;
+  background: #141527;
+}
+
 .app {
   background: #141527;
   height: 100%;

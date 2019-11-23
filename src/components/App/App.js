@@ -21,10 +21,9 @@ class App extends Component {
         ...health
       ]
     }
-    this.chooseNews = this.chooseNews.bind(this)
   }
 
-  chooseNews(id) {
+  chooseNews = (id) => {
     let news = id
     news === 'entertainment' ? news = entertainment 
     : id === 'health' ? news = health
@@ -33,10 +32,19 @@ class App extends Component {
     this.setState({displayNews: news})
   }
 
+  filterNews = (query) => {
+   const filteredNews = this.state.displayNews.filter(article => {
+      if (article.headline.toLowerCase().includes(query.query.toLowerCase())) {
+        return article
+      }
+    })
+    this.setState({displayNews: filteredNews})
+  }
+
   render() {
     return (
       <div className="app">
-        <Header />
+        <Header filterNews={this.filterNews}/>
         <Menu chooseNews={this.chooseNews}/>
         <NewsContainer displayNews= {this.state.displayNews}/>
       </div>
